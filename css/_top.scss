@@ -1,0 +1,15 @@
+.pickup {
+  padding-top: 100px;
+  margin-bottom: 40px;
+  .flexContent {
+    display: flex;
+    justify-content: space-between;
+  }
+  article {
+    width: 32%;
+    img {
+      max-width: 100%;
+      height: 200px;
+    }
+  }
+}
