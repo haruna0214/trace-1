@@ -1,0 +1,23 @@
+header {
+  width: 100%;
+  background-color: grey;
+  color: #FFF;
+}
+
+.site-title {
+  padding: 28px;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerList {
+  display: flex;
+}
+
+.headerList li {
+  padding-left: 20px;
+}
