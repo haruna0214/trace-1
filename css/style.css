@@ -413,6 +413,78 @@ header {
   padding-left: 20px;
 }
 
+/*-------------------------------------------
+footer
+-------------------------------------------*/
+footer {
+  margin-top: 100px;
+  background-color: #696969;
+  color: #fff;
+}
+
+.footerOuter {
+  margin-top: 80px;
+  padding: 40px;
+}
+@media screen and (max-width: 860px) {
+  .footerOuter {
+    padding: 0px;
+  }
+}
+.footerOuter .footerContent {
+  display: flex;
+  gap: 40px 0;
+}
+@media screen and (max-width: 860px) {
+  .footerOuter .footerContent {
+    flex-direction: column;
+    gap: 20px 0;
+  }
+}
+
+.infoItem {
+  margin-top: 60px;
+  width: 50%;
+}
+@media screen and (max-width: 860px) {
+  .infoItem {
+    width: 100%;
+    text-align: center;
+  }
+}
+.infoItem p {
+  padding-bottom: 8px;
+}
+
+.menuItem {
+  margin-bottom: 30px;
+  width: 50%;
+}
+@media screen and (max-width: 860px) {
+  .menuItem {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 860px) {
+  .menuItem ul {
+    display: flex;
+    justify-content: center;
+  }
+}
+.menuItem li {
+  border-bottom: solid 1px #fff;
+  padding: 18px;
+}
+@media screen and (max-width: 860px) {
+  .menuItem li {
+    border-bottom: none;
+    padding-right: 32px;
+  }
+}
+
+/*-------------------------------------------
+pickup
+-------------------------------------------*/
 .pickup {
   padding-top: 100px;
   margin-bottom: 40px;
@@ -421,12 +493,143 @@ header {
   display: flex;
   justify-content: space-between;
 }
-.pickup article {
-  width: 32%;
+@media screen and (max-width: 860px) {
+  .pickup .flexContent {
+    flex-direction: column;
+  }
 }
-.pickup article img {
-  max-width: 100%;
+.pickup article {
+  padding: 0 12px;
+}
+@media screen and (max-width: 860px) {
+  .pickup article {
+    width: 100%;
+    padding-bottom: 40px;
+  }
+}
+.pickup img {
   height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media screen and (max-width: 860px) {
+  .pickup img {
+    max-width: 860px;
+    height: auto;
+  }
+}
+.pickup .text {
+  text-align: center;
+}
+
+.viewMore {
+  text-align: right;
+}
+
+/*-------------------------------------------
+container
+-------------------------------------------*/
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 860px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+main {
+  width: 64%;
+}
+@media screen and (max-width: 860px) {
+  main {
+    width: 100%;
+  }
+}
+
+.galleryList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+@media screen and (max-width: 860px) {
+  .galleryList {
+    flex-direction: column;
+  }
+}
+
+.galleryItem {
+  width: 47%;
+  margin-bottom: 12px;
+}
+@media screen and (max-width: 860px) {
+  .galleryItem {
+    width: 100%;
+  }
+}
+
+aside {
+  width: 33%;
+}
+@media screen and (max-width: 860px) {
+  aside {
+    width: 100%;
+  }
+}
+
+.author {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.author .profileContent {
+  padding-bottom: 24px;
+}
+.author .profileContent .authorImg {
+  width: 120px;
+}
+@media screen and (max-width: 860px) {
+  .author .profileContent .authorImg {
+    max-width: 860px;
+    width: 300px;
+  }
+}
+.author .profileContent img {
+  width: 240px;
+  padding-bottom: 20px;
+}
+@media screen and (max-width: 860px) {
+  .author .profileContent img {
+    max-width: 860px;
+    width: 100%;
+  }
+}
+.author .authorText {
+  text-align: left;
+  font-size: 1.4rem;
+  width: 82%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 860px) {
+  .author .authorText {
+    text-align: center;
+  }
+}
+
+.contactBtn {
+  width: 480px;
+  padding: 20px 40px;
+  background-color: yellow;
+  border-radius: 8px;
+  text-align: center;
+  margin: 0 auto;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+  margin-top: 40px;
+}
+@media screen and (max-width: 860px) {
+  .contactBtn {
+    width: 300px;
+  }
 }
 
 html {
@@ -451,6 +654,10 @@ li {
   list-style: none;
 }
 
+img {
+  width: 100%;
+}
+
 h1 {
   font-size: 2rem;
   font-weight: 700;
@@ -465,6 +672,8 @@ h2 {
 
 h3 {
   font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 18px;
 }
 
 .wrapper {
@@ -472,4 +681,9 @@ h3 {
   width: 100%;
   margin: 0 auto;
   padding: 0 20px;
+}
+@media screen and (max-width: 860px) {
+  .wrapper {
+    padding: 0 20px;
+  }
 }/*# sourceMappingURL=style.css.map */

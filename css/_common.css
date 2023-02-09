@@ -20,6 +20,10 @@ li {
   list-style: none;
 }
 
+img {
+  width: 100%;
+}
+
 h1 {
   font-size: 2rem;
   font-weight: 700;
@@ -34,6 +38,8 @@ h2 {
 
 h3 {
   font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 18px;
 }
 
 .wrapper {
@@ -41,4 +47,10 @@ h3 {
   width: 100%;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+@media screen and (max-width: 860px) {
+  .wrapper {
+    padding: 0 20px;
+  }
 }

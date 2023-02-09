@@ -8,8 +8,8 @@
   <title>Cafe</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css" />
   <link rel="stylesheet" href="css/style.css">
-  <script src="https://code.jquery.com/jquery-3.6.3.min.js"
-    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script> -->
 </head>
 
 <body>
@@ -47,34 +47,73 @@
         <img src="images/news3.jpg" alt="お知らせ画像3">
         <p class="text">新メニュー登場</p>
       </article>
-
+    </div>
+    <div class="viewMore">
+      <a href="#">view more</a>
     </div>
   </div>
 
-  <div class="container">
-    <main></main>
-    <aside></aside>
+  <div class="container wrapper">
+    <main>
+      <h2>Gallery</h2>
+      <div class="galleryList">
+        <div class="galleryItem">
+          <img src="images/main1.jpg" alt="店内の画像1">
+        </div>
+        <div class="galleryItem">
+          <img src="images/main2.jpg" alt="店内の画像2">
+        </div>
+        <div class="galleryItem">
+          <img src="images/main3.jpg" alt="店内の画像3">
+        </div>
+        <div class="galleryItem">
+          <img src="images/main4.jpg" alt="店内の画像4">
+        </div>
+      </div>
+      <div class="viewMore">
+        <a href="#">view more</a>
+      </div>
+    </main>
+    <aside>
+      <h2>Profile</h2>
+      <div class="author">
+        <div class="profileContent">
+          <img class="authorImg" src="images/human.png" alt="自己紹介画像">
+          <p class="authorText">
+            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+        </div>
+        <div class="profileContent">
+          <img src="images/shop.jpg" alt="お店の外観の画像">
+          <p class="authorText">address:XXX-XXX@XXXXXXX</p>
+          <p class="authorText">TEL:XXX-XXXX-XXX</p>
+        </div>
+      </div>
+    </aside>
   </div>
 
-  <div class="contact"><a href="#">Make contact with us!</a></div>
+  <div class="contactBtn"><a href="#">Make contact with us!</a></div>
 
-  <footer>
-    <div class="footerItem">
-      <h3></h3>
-      <p></p>
-      <p></p>
-    </div>
-    <div class="footerItem">
-      <ul class="footerList">
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-      </ul>
+  <footer class="wrapper">
+    <div class="footerOuter">
+      <div class="footerContent">
+        <div class="infoItem">
+          <h3>Cafe</h3>
+          <p>address:XXX-XXX@XXXXXXX</p>
+          <p>TEL:XXX-XXXX-XXX</p>
+        </div>
+        <div class="menuItem">
+          <ul>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
   </footer>
 
-  <script type="text/javascript" src="script.js"></script>
+  <!-- <script type="text/javascript" src="script.js"></script> -->
 </body>
 
 </html>
